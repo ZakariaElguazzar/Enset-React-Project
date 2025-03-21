@@ -1,0 +1,12 @@
+{
+    "users": [
+      { "id": 1, "name": "Alice", "login": "alice@example.com", "password": "alice123" },
+      { "id": 2, "name": "Bob", "login": "bob@example.com", "password": "bob123" },
+      { "id": 3, "name": "Charlie", "login": "charlie@example.com", "password": "charlie123" },
+      { "id": 4, "name": "David", "login": "david@example.com", "password": "david123" },
+      { "id": 5, "name": "Eve", "login": "eve@example.com", "password": "eve123" },
+      { "id": 6, "name": "Frank", "login": "frank@example.com", "password": "frank123" },
+      { "id": 7, "name": "Grace", "login": "grace@example.com", "password": "grace123" }
+    ]
+  }
+  
