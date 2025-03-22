@@ -23,19 +23,7 @@ function Navbar({ setIsOpen }) {
 
       {/* Right Side: User Info & Logout */}
       <div className="flex items-center">
-        {user ? (
-          <>
-            <span className="mr-4 text-gray-800">{user.name}</span>
-            <button
-              onClick={logout}
-              className="bg-red-500 text-white px-4 py-2 rounded"
-            >
-              Logout
-            </button>
-          </>
-        ) : (
-          <Link to="/login" className="text-blue-500">Login</Link>
-        )}
+          <button onClick={logout} className="text-blue-500">Logout</button>
       </div>
     </nav>
   );

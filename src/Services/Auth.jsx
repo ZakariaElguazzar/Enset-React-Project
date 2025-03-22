@@ -30,7 +30,7 @@ export const AuthProvider = ({ children }) => {
   // Logout function
   const logout = () => {
     setUser(null);
-    navigate("/registerlogin"); // Redirect to Login on logout
+    navigate("/"); // Redirect to Login on logout
   };
 
   return (
