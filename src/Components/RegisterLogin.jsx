@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import { useAuth } from "../Services/Auth"; 
 import { RegisterUser } from "../Services/RegisterUser";
@@ -116,7 +117,6 @@ function RegisterLogin() {
         </button>
       </form>
     </div>
-  );
+  )
 }
-
 export default RegisterLogin;
